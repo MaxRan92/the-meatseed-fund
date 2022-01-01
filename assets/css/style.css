@@ -1,9 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fira+Sans+Condensed:wght@300&display=swap');
 
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
+    color: #4f9d69;
+    font-size: large;
 }
+
+header {
+    background-color: #0c1618;
+    height: 80px;
+}
+
 
 h1 {
     font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    color: #4f9d69;
+}
+
+#menu,
+#logo {
+    line-height: 80px;
+}
+
+#logo {
+    float: left;
+    margin: 0 30px;
+    letter-spacing: 4px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #efefef;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #efefef;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    letter-spacing: 2px;
+}
+
+#menu .active {
+    border-bottom: 1px solid #4f9d69;
+    color: #4f9d69;
+    font-weight: bold;
 }
