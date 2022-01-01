@@ -12,7 +12,8 @@ body {
     background-color: #efefef;
 }
 
-header {
+header,
+footer {
     background-color: #0c1618;
     height: 75px;
 }
@@ -109,6 +110,7 @@ p {
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 1.5px;
+    border: 1px solid #4f9d69;
     border-radius: 500px;
     width: 130px;
     margin-top: 10px;
@@ -161,11 +163,12 @@ p {
 
 .left-container {
     width:70%;
-    margin: 33% 15%;
+    margin: 25% 15%;
 }
 
 .two-col-section-right {
     width: 50%;
+    height: inherit;
     float: right;
     object-fit: cover;
     overflow: hidden;
@@ -183,4 +186,12 @@ p {
     object-position: 27% 50%;
 }
 
+#featured-in {
+    height: 150px;
+    background-color: #4f9d69;
+}
 
+#featured-in h2 {
+    text-align: center;
+    width: 100%;
+}
