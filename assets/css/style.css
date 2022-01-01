@@ -9,8 +9,7 @@
 
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
-    color: #4f9d69;
-    font-size: large;
+    color: #0C1618;
 }
 
 header {
@@ -23,6 +22,12 @@ h1 {
     font-family: 'Barlow', sans-serif;
     text-transform: uppercase;
     color: #4f9d69;
+}
+
+h2 {
+    color: #004643;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 3px;
 }
 
 #menu,
@@ -50,10 +55,59 @@ h1 {
     list-style-type: none;
     margin-right: 30px;
     letter-spacing: 2px;
+    font-size: 20px;
 }
 
 #menu .active {
     border-bottom: 1px solid #4f9d69;
     color: #4f9d69;
     font-weight: bold;
+}
+
+#home-quote {
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+#home-quote-text {
+    font-size: 120%;
+    text-align: center;
+    bottom: 200px;
+    background-color: rgba(12, 22, 24, .6);
+
+    padding: 50px 50px;
+    position: absolute;
+    margin: 0 100px;
+
+}
+
+#home-quote-text h1 {
+    margin-bottom: 10px;
+}
+
+#home-quote-text h3 {
+    color: #efefef;
+}
+
+#home-quote-image {
+    height: 600px;
+    width: 100%;
+    background: url('../css/images/home-top-image.jpg') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: home-quote-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes home-quote-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
