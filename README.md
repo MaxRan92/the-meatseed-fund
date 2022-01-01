@@ -93,11 +93,20 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  1. In the GitHub [repository](https://github.com/MaxRan92/the-meatseed-fund), navigate to the Settings tab
+  
+  ![image](https://user-images.githubusercontent.com/87261820/147862161-f979c2bc-aef7-4cfc-8f27-d8482588b85f.png)
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+  2. Select "Pages" from the left hand navigation tab, then select Source > Branch: main
+  
+  ![image](https://user-images.githubusercontent.com/87261820/147862180-01f7842d-9433-4c3c-b633-6baa43e18a11.png)
+  
+  3. Once the main branch has been selected and the Save button is clicked, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.   
+
+  ![image](https://user-images.githubusercontent.com/87261820/147862238-5a62868d-be20-47f3-af20-500691c40406.png)
+
+  
+The live link can be found here - https://maxran92.github.io/the-meatseed-fund/
 
 
 ## Credits 
