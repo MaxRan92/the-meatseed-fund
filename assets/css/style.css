@@ -45,7 +45,7 @@ h2 {
 
 h3 {
     font-family: 'Barlow', sans-serif;
-    color: #63B079;
+    color: #004643;
     margin-bottom: 5px;
 }
 
@@ -105,7 +105,6 @@ p {
     padding: 50px 50px;
     position: absolute;
     margin: 0 100px;
-
 }
 
 .title-text h2 {
@@ -117,12 +116,9 @@ p {
 }
 
 .button {
-    background-color: #63B079;
-    color:#efefef;
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 1.5px;
-    border: 1px solid #63B079;
     border-radius: 500px;
     width: 130px;
     margin-top: 10px;
@@ -132,10 +128,28 @@ p {
     text-align: center;
 }
 
-.button:hover {
+.button.bright {
     background-color: #efefef;
-    color: #63B079;
-    border: 1px solid #0C1618;
+    color:#004643;
+    border: 1px solid #efefef;
+}
+
+.button.bright:hover {
+    background-color: #004643;
+    color:#efefef;
+    border: 1px solid #efefef;
+}
+
+.button.dark {
+    background-color: #004643;
+    color:#efefef;
+    border: 1px solid #004643;
+}
+
+.button.dark:hover {
+    background-color: #efefef;
+    color: #004643;
+    border: 1px solid #004643;
 }
 
 #home-quote-image {
@@ -201,10 +215,27 @@ p {
 
 #featured-in {
     height: 150px;
-    background-color: #63B079;
+    background-color: #004643;
+    padding: 25px 5%;
 }
 
 #featured-in h2 {
     text-align: center;
+    width: 100%;
+}
+
+.block-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 20%;
+    height: 100px;
+    margin: 0 2.5%;
+}
+
+.logo {
     width: 100%;
 }
