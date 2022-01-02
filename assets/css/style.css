@@ -12,16 +12,28 @@ body {
     background-color: #efefef;
 }
 
+header {
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+}
+
 header,
 footer {
     background-color: #0c1618;
     height: 75px;
 }
 
+section {
+    clear: both;
+}
+
 h1 {
     font-family: 'Barlow', sans-serif;
     text-transform: uppercase;
-    color: #4f9d69;
+    color: #63B079;
 }
 
 h2 {
@@ -33,7 +45,7 @@ h2 {
 
 h3 {
     font-family: 'Barlow', sans-serif;
-    color: #4f9d69;
+    color: #63B079;
     margin-bottom: 5px;
 }
 
@@ -72,8 +84,8 @@ p {
 }
 
 #menu .active {
-    border-bottom: 1px solid #4f9d69 !important;
-    color: #4f9d69;
+    border-bottom: 1px solid #63B079 !important;
+    color: #63B079;
     font-weight: bold;
 }
 
@@ -105,12 +117,12 @@ p {
 }
 
 .button {
-    background-color: #4f9d69;
+    background-color: #63B079;
     color:#efefef;
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 1.5px;
-    border: 1px solid #4f9d69;
+    border: 1px solid #63B079;
     border-radius: 500px;
     width: 130px;
     margin-top: 10px;
@@ -122,13 +134,14 @@ p {
 
 .button:hover {
     background-color: #efefef;
-    color: #4f9d69;
+    color: #63B079;
     border: 1px solid #0C1618;
 }
 
 #home-quote-image {
     background: url('../images/home-top-image.jpg') no-repeat center center;
 }
+
 
 .title-image{
     height: 600px;
@@ -188,7 +201,7 @@ p {
 
 #featured-in {
     height: 150px;
-    background-color: #4f9d69;
+    background-color: #63B079;
 }
 
 #featured-in h2 {
