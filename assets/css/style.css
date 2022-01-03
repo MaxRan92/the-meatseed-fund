@@ -22,7 +22,12 @@ header {
 }
 
 footer {
-    height: 100px;
+    height: 75px;
+    padding: 15px 5%;
+}
+
+a {
+    text-decoration: none;
 }
 
 header,
@@ -30,16 +35,12 @@ footer {
     background-color: #0c1618;
 }
 
-
-
 section {
     clear: both;
 }
 
 h1 {
     font-family: 'Barlow', sans-serif;
-    text-transform: uppercase;
-    color: #63B079;
 }
 
 h2 {
@@ -61,27 +62,33 @@ p {
     text-align: justify;
 }
 
-#menu,
-#logo {
+.menu,
+header .logo {
     line-height: 75px;
 }
 
-#logo {
-    float: left;
+.logo {
     margin: 0 30px;
     letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #63B079;
+    text-align: center;
 }
 
-#menu a {
-    text-decoration: none;
+header .logo {
+    float: left;
+}
+
+
+.menu a {
     color: #efefef;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid #efefef;
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -89,7 +96,7 @@ p {
     font-size: 20px;
 }
 
-#menu .active {
+.menu .active {
     border-bottom: 1px solid #63B079 !important;
     color: #63B079;
     font-weight: bold;
@@ -107,7 +114,6 @@ p {
     text-align: center;
     bottom: 200px;
     background-color: rgba(12, 22, 24, .7);
-
     padding: 50px 50px;
     position: absolute;
     margin: 0 100px;
@@ -130,7 +136,6 @@ p {
     margin-top: 10px;
     padding: 3px 10px;
     display: inline-block;
-    text-decoration: none;
     text-align: center;
 }
 
@@ -159,9 +164,8 @@ p {
 }
 
 #home-quote-image {
-    background: url('../images/home-top-image.jpg') no-repeat center center;
+    background: url('../images/home-top-image.jpg') no-repeat center center;    
 }
-
 
 .title-image{
     height: 600px;
@@ -173,7 +177,6 @@ p {
     animation-fill-mode: forwards;
 
 }
-
 
 @keyframes home-quote-zoom {
     from {
@@ -244,11 +247,30 @@ p {
 }
 
 /*Set height keeping aspect ratio and center horizontally*/
-.logo {
+.news-logo {
     display: block;
     max-height: 80px;
     max-width: 70%;
     height: auto;
     width: auto;
     margin: 10px auto;
+}
+
+footer h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.social-networks i{
+    font-size: 150%;
+    color: #efefef;
+    margin: 10px 15px;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks {
+    text-align: center;
 }
