@@ -353,7 +353,7 @@ footer h2 {
 .skew-l {
     margin: -80px 0 0 -50px;
     transform: skew(0deg, -40deg);
-    background: #63B079;
+    background: #276438;
     width: 350px;
     height: 300px;
     border-style: solid;
@@ -364,7 +364,7 @@ footer h2 {
 .skew-r {
     margin: -80px 0 0 -50px;
     transform: skew(0deg, 40deg);
-    background: #63B079;
+    background: #b67907;
     width: 350px;
     height: 300px;
     border-style: solid;
@@ -375,7 +375,7 @@ footer h2 {
 .skew-c {
     margin: -80px 0 0 -50px;
     transform: skew(0deg, 0deg);
-    background: #63B079;
+    background: #8f2207;
     width: 350px;
     height: 285px;
     border-style: solid;
@@ -402,7 +402,38 @@ footer h2 {
 .ptf-companies img {
     max-width: 40%;
     max-height: 33%;
-    /*height: 50%;*/
     margin: 60px auto;
     object-fit: scale-down;
+}
+
+.company-container h2,
+.company-container h3 {
+    display: none;
+}
+
+.company-container:hover img {
+    display: none;
+}
+
+.company-container:hover h2,
+.company-container:hover h3 {
+    display: block;
+    width: 300px;
+    color: #EFEFEF;
+    line-height: 1;
+    text-align: center;
+    margin: 15px 0;
+    letter-spacing: unset;
+}
+
+.plant-based:hover {
+    background-color: #276438;
+}
+
+.cultivated:hover {
+    background-color: #8f2207;
+}
+
+.insect-based:hover {
+    background-color: #b67907;
 }
