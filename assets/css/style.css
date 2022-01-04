@@ -293,8 +293,19 @@ footer h2 {
 }
 
 .three-col-section {
-    height: 450px;
+    height: 600px;
     width: 100%;
+}
+
+.three-col-section-text {
+    text-align: center;
+    margin: 0 20%;
+}
+
+.three-col-section-text h2{
+    color: #004643;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 .three-col-section-left {
