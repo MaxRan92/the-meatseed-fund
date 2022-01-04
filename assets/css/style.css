@@ -131,14 +131,14 @@ header .logo {
 .top-banner {
     height: 125px;
     width: 100%;
-    background-color: #63B079;
+    background-color: #004643;
     padding-top: 75px;
 }
 
 .top-text {
-    color: #0C1618;
+    color: #EFEFEF;
     position: relative;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     line-height: 125px;
 }
@@ -295,6 +295,7 @@ footer h2 {
 .three-col-section {
     height: 600px;
     width: 100%;
+    margin: 0 0 50px 0;
 }
 
 .three-col-section-text {
@@ -380,4 +381,28 @@ footer h2 {
     border-style: solid;
     border-color: #EFEFEF;
     border-width: 3px;
+}
+
+.ptf-companies {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+.company-container {
+    background-color: #004643;
+    height: 25vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptf-companies img {
+    max-width: 40%;
+    max-height: 33%;
+    /*height: 50%;*/
+    margin: 60px auto;
+    object-fit: scale-down;
 }
