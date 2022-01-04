@@ -9,7 +9,7 @@
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
     color: #0C1618;
-    background-color: #efefef;
+    background-color: #EFEFEF;
 }
 
 header {
@@ -41,14 +41,14 @@ section {
 
 h1 {
     font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
 }
 
 h2 {
     font-family: 'Barlow', sans-serif;
-    color: #efefef;
+    color: #EFEFEF;
     letter-spacing: 3px;
 }
-
 
 h3 {
     font-family: 'Barlow', sans-serif;
@@ -79,13 +79,12 @@ header .logo {
     float: left;
 }
 
-
 .menu a {
-    color: #efefef;
+    color: #EFEFEF;
 }
 
 .menu a:hover {
-    border-bottom: 1px solid #efefef;
+    border-bottom: 1px solid #EFEFEF;
 }
 
 .menu li {
@@ -104,15 +103,17 @@ header .logo {
 
 .title-banner {
     overflow: hidden;
-    height: 600px;
+    height: 375px;
     width: 100%;
     position: relative;
+    padding-top: 75px;
 }
 
 .title-text {
-    font-size: 120%;
+    font-size: 100%;
     text-align: center;
-    bottom: 200px;
+    height: 125px;
+    bottom: 75px;
     background-color: rgba(12, 22, 24, .7);
     padding: 50px 50px;
     position: absolute;
@@ -124,7 +125,22 @@ header .logo {
 }
 
 .title-text h3 {
-    color: #efefef;
+    color: #EFEFEF;
+}
+
+.top-banner {
+    height: 125px;
+    width: 100%;
+    background-color: #63B079;
+    padding-top: 75px;
+}
+
+.top-text {
+    color: #0C1618;
+    position: relative;
+    font-size: 2em;
+    text-align: center;
+    line-height: 125px;
 }
 
 .button {
@@ -140,25 +156,25 @@ header .logo {
 }
 
 .button.bright {
-    background-color: #efefef;
+    background-color: #EFEFEF;
     color:#004643;
-    border: 1px solid #efefef;
+    border: 1px solid #EFEFEF;
 }
 
 .button.bright:hover {
     background-color: #004643;
-    color:#efefef;
-    border: 1px solid #efefef;
+    color:#EFEFEF;
+    border: 1px solid #EFEFEF;
 }
 
 .button.dark {
     background-color: #004643;
-    color:#efefef;
+    color:#EFEFEF;
     border: 1px solid #004643;
 }
 
 .button.dark:hover {
-    background-color: #efefef;
+    background-color: #EFEFEF;
     color: #004643;
     border: 1px solid #004643;
 }
@@ -194,6 +210,7 @@ header .logo {
 
 .two-col-section-left {
     width: 50%;
+    height: inherit;
     float: left
 }
 
@@ -263,7 +280,7 @@ footer h2 {
 
 .social-networks i{
     font-size: 150%;
-    color: #efefef;
+    color: #EFEFEF;
     margin: 10px 15px;
 }
 
@@ -273,4 +290,65 @@ footer h2 {
 
 .social-networks {
     text-align: center;
+}
+
+.three-col-section {
+    height: 450px;
+    width: 100%;
+}
+
+.three-col-section-left {
+    height: inherit;
+    width: 33%;
+    float: left;
+}
+
+.three-col-section-right {
+    height: inherit;
+    width: 33%;
+    float: right;
+}
+
+.three-col-section-center {
+    height: inherit;
+    width: 34%;
+    margin: 0 auto; 
+    display: inline-block;
+}
+
+.circle-container {
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    border-style: solid;
+    border-color: #0C1618;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 40px auto;
+    overflow: hidden;
+    background: #0C1618;
+}
+
+.skew-l {
+    margin: -80px 0 0 -50px;
+    transform: skew(0deg, -40deg);
+    background: #63B079;
+    width: 350px;
+    height: 300px;
+}
+
+.skew-r {
+    margin: -80px 0 0 -50px;
+    transform: skew(0deg, 40deg);
+    background: #63B079;
+    width: 350px;
+    height: 300px;
+}
+
+.skew-c {
+    margin: -80px 0 0 -50px;
+    transform: skew(0deg, 0deg);
+    background: #63B079;
+    width: 350px;
+    height: 285px;
 }
