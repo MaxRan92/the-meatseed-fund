@@ -133,9 +133,6 @@ header .logo {
     width: 100%;
     background-color: #004643;
     padding-top: 75px;
-}
-
-.top-text {
     color: #EFEFEF;
     position: relative;
     font-size: 1.5em;
@@ -180,7 +177,8 @@ header .logo {
 }
 
 #home-quote-image {
-    background: url('../images/home-top-image.jpg') no-repeat center center;    
+    background: url('../images/home-top-image.jpg') no-repeat center center;
+    width: 100%;    
 }
 
 .title-image{
@@ -206,6 +204,7 @@ header .logo {
 
 .two-col-section {
     height: 600px;
+    width: 100%;
 }
 
 .two-col-section-left {
@@ -229,15 +228,12 @@ header .logo {
 
 
 .right-container {
-    width: 70%;
+    width: 525px;
     height: 400px;
     padding: 7px;
     margin: 93px auto;
     overflow: hidden;
     background: #0C1618;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #home-central-image {
@@ -253,15 +249,14 @@ header .logo {
 }
 
 .skew-bg {
-    margin: -80px 0 0 -50px;
+    margin: -400px 0 0 -150px;
     transform: skew(0deg, -40deg);
-    background: #276438;
-    width: 350px;
+    background: #004643;
+    width: 1600px;
     height: 300px;
     border-style: solid;
     border-color: #EFEFEF;
     border-width: 3px;
-    position: absolute;
 }
 
 #featured-in {
@@ -318,14 +313,28 @@ footer h2 {
 }
 
 .three-col-section {
-    height: 600px;
+    height: 675px;
     width: 100%;
-    margin: 0;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    height: 50px;
+    width: 100%;
+    background-color: #004643;
+    color: #EFEFEF;
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    border-color: #EFEFEF;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .three-col-section-text {
     text-align: center;
-    margin: 0 20%;
+    margin: 0 15%;
 }
 
 .three-col-section-text h2{
@@ -422,6 +431,9 @@ footer h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-color: #EFEFEF;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .ptf-companies img {
