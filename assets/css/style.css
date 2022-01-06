@@ -330,6 +330,9 @@ footer h2 {
     border-color: #EFEFEF;
     border-width: 1px;
     border-style: solid;
+}
+
+#how-it-works .section-title {
     margin: 25px 0;
 }
 
@@ -519,4 +522,70 @@ footer h2 {
 
 #how-it-works {
     height: 300px;
+}
+
+
+/*form*/
+
+.form-section {
+    height: 960px;
+}
+
+.interest-form {
+    width: 750px;
+    height: 675px;
+    margin: 75px auto;
+    color: #EFEFEF;
+    background-color: rgba(12, 22, 24, .7);
+    padding: 30px 40px 30px 30px;
+}
+
+.interest-form > h2 {
+    color: #EFEFEF;
+    margin-bottom: 25px;
+    letter-spacing: normal;
+}
+
+.interest-form > h3 {
+    color: #EFEFEF;
+    margin-bottom: 5px;
+}
+
+.text-input,
+#soft-commitment {
+    background: #EFEFEF;
+    color: #004643;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 10px 0;
+    border: 2px solid #EFEFEF;
+    border-radius: 4px;
+    padding: 0 5px;
+}
+
+.text-input:hover {
+    border-color: #63B079;
+}
+
+.radio,
+#soft-commitment,
+.submit-button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius:2px;
+    padding: 15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color: #004643;
+    color:#EFEFEF;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: #fafafa;
+    color: #004643;
 }

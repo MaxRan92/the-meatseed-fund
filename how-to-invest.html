@@ -81,6 +81,42 @@
         <div class="section-title">
             <h2>Tell us you are interested!</h2>
         </div>
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="interest-form">
+            
+            <h2>Fill the following form to receive via email all the relevant information.</h2>
+            
+            <h3>Personal Data</h3>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" class="text-input" name="first_name" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" class="text-input" name="last_name" required>
+            <label for="country">Country of Residence</label>
+            <input type="text" id="country" class="text-input" name="country" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" class="text-input" name="email_address" required>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" class="text-input" name="phone" required>
+            
+            <h3>Investor Profile</h3>
+            <label for="retail">Retail</label>
+            <input type="radio" id="retail" class="radio" name="investor_profile" value="retail" required>
+            <label for="professional">Professional</label>
+            <input type="radio" id="professional" class="radio" name="investor_profile" value="professional">
+            <label for="institutional">Institutional</label>
+            <input type="radio" id="institutional" class="radio" name="investor_profile" value="institutional">
+            
+            <label for="soft-commitment">Soft Commitment Range (in USD)</label>
+            <input type="text" id="soft-commitment" name="soft-commitment" list="size">
+            <datalist id="size">
+                <option value="Less than 10'000 USD"></option>
+                <option value="10'000 USD - 100'000 USD"></option>
+                <option value="100'000 USD - 1'000'000 USD"></option>
+                <option value="More than 1'000'000 USD"></option>
+            </datalist>
+
+            <input type="submit" value="Submit Interest" class="submit-button">
+            
+        </form>
     </section>
     <footer>
         <div>
