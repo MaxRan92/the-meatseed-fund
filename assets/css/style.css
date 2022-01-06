@@ -330,6 +330,7 @@ footer h2 {
     border-color: #EFEFEF;
     border-width: 1px;
     border-style: solid;
+    margin: 25px 0;
 }
 
 .three-col-section-text {
@@ -474,4 +475,48 @@ footer h2 {
 
 .insect-based:hover {
     background-color: #b67907;
+}
+
+
+/*how-to-invest page*/
+
+.kpi-section {
+    height: 600px;
+    width: 100%;
+}
+
+.kpi-right {
+    float: right;
+    height: 600px;
+    width: 50%;
+}
+
+.kpi-1 {
+    height: 600px;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+} 
+
+.kpi-1 p,
+.kpi-1 h3{
+    text-align: center;
+    margin: 25% 15%;
+}
+
+.kpi-2 {
+    height: 300px;
+    width: 100%;
+    background-color: chartreuse;
+}
+
+.kpi-3 {
+    height: 300px;
+    width: 100%;
+    background-color: blueviolet;
+
+}
+
+#how-it-works {
+    height: 300px;
 }
