@@ -794,6 +794,7 @@ footer h2 {
 
     .interest-form {
         max-width: 450px;
+        width: 100%;
     }
 
 }
@@ -803,7 +804,6 @@ footer h2 {
 @media screen and (max-width: 576px) {
 
 }
-
 
 /*KEYFRAMES*/
 
