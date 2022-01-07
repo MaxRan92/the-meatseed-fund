@@ -209,6 +209,10 @@ header .logo {
     height: 675px;
 }
 
+#how-it-works .three-col-section {
+    height: 375px;
+}
+
 .two-col-section, 
 .three-col-section {
     width: 100%;
@@ -349,13 +353,13 @@ footer h2 {
     border-style: solid;
 }
 
-#how-it-works .section-title {
-    margin: 25px 0;
-}
-
 .three-col-section-text {
     text-align: center;
     margin: 0 15%;
+}
+
+#how-it-works .three-col-section-text {
+    margin: auto 15%;
 }
 
 .three-col-section-text h2{
@@ -482,7 +486,7 @@ footer h2 {
 /*how-to-invest page*/
 
 #how-it-works {
-    height: 300px;
+    height: 450px;
 }
 
 
