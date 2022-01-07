@@ -574,6 +574,15 @@ footer h2 {
 
 /*RESPONSIVENESS*/
 
+.hide-mobile {
+    display: block;
+}
+
+.show-mobile {
+    display: none;
+}
+
+
 /* laptop styles and smaller styles */
 @media screen and (max-width: 1200px) {
     .right-container {
@@ -661,6 +670,13 @@ footer h2 {
         margin: -132px 0 0 96px;
         width: 400px;
         height: 500px;
+    }
+
+    .ptf-companies img {
+        max-width: 50%;
+        max-height: 50%;
+        margin: 60px auto;
+        object-fit: scale-down;
     }
 
 }
@@ -802,6 +818,139 @@ footer h2 {
  
 /* phone styles and smaller */
 @media screen and (max-width: 576px) {
+
+    header {
+        height: 120px;
+    }
+
+    ul.menu li {
+        margin: auto;
+        width: 33%;
+        font-size: 18px;
+    }
+
+    .title-text {
+        height: auto;
+        bottom: 25px;
+        padding: 20px 20px;
+        margin: 25px 20px 0 20px;
+    }
+
+    .title-banner {
+        padding-top: 75px;
+        height: 400px;
+    }
+
+    .title-text h3 {
+        text-align: justify;
+    }
+
+    .title-text h2 {
+        margin-bottom: 5px;
+    }
+
+    .title-text .button {
+        margin-top: 5px;
+    }
+
+    .top-banner {
+        height: 60px;
+        padding-top: 125px;
+        line-height: 25px;
+    }
+
+    .logo {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .two-col-section {
+        display: block;
+        height: 725px;
+    }
+
+    .two-col-section-left,
+    .two-col-section-right {
+        flex-direction: column;
+        margin-top: 0px;
+        padding: 25px 10px;
+    }
+
+    .two-col-section-right {
+        height: 300px;
+        padding: 0;
+    }
+
+    .left-container {       
+        text-align: center;
+        width: 80%;
+    }
+
+    .right-container {
+        margin: 0;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .show-mobile {
+        display: block;
+        width: 100%;
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .show-mobile img {
+        width: 100%;
+        border: none;
+        padding: 0;
+        margin: 0;
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0% 16%;
+    }
+
+    .three-col-section {
+        height: 1800px;
+    }
+
+    .three-col-section-center,
+    .three-col-section-left,
+    .three-col-section-right {
+        height: 600px; 
+    }
+    
+    .companies .section-title, 
+    .form-section .section-title {
+        height: 104px;
+    }
+
+    .ptf-companies img {
+        max-width: 70%;
+        max-height: 70%;
+        margin: 60px auto;
+        object-fit: scale-down;
+    }
+
+    .interest-form {
+        max-width: 260px;
+        height: 800px;
+    }
+
+    .radio-group {
+    flex-direction: column;
+    }
+
+    .form-section {
+        height: 900px;
+    }
+
+    .input-group {
+        padding: 0.5rem 0.5rem;
+    }
 
 }
 
