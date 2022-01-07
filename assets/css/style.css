@@ -201,9 +201,16 @@ header .logo {
 
 /*CREATING GRID FOR TWO/THREE COL SECTIONS*/
 
+.two-col-section {
+    height: 600px;
+} 
+
+.three-col-section {
+    height: 675px;
+}
+
 .two-col-section, 
 .three-col-section {
-    height: 600px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -328,10 +335,6 @@ footer h2 {
     text-align: center;
 }
 
-.three-col-section {
-    margin-bottom: 50px;
-}
-
 .section-title {
     height: 50px;
     width: 100%;
@@ -359,25 +362,6 @@ footer h2 {
     color: #004643;
     text-align: center;
     margin-bottom: 5px;
-}
-
-.three-col-section-left {
-    height: inherit;
-    width: 33%;
-    float: left; 
-}
-
-.three-col-section-right {
-    height: inherit;
-    width: 33%;
-    float: right;
-}
-
-.three-col-section-center {
-    height: inherit;
-    width: 34%;
-    margin: 0 auto; 
-    display: inline-block; 
 }
 
 .circle-container {
@@ -593,7 +577,9 @@ footer h2 {
 
 /* laptop styles and smaller styles */
 @media screen and (max-width: 1200px) {
-  
+    .right-container {
+        width: calc(100% - 100px);
+    }
 }
  
 /* tablets landscape and smaller styles */
