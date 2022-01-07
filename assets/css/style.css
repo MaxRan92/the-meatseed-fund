@@ -30,6 +30,8 @@ header {
 
 footer {
     padding: 15px 5%;
+    bottom: 0;
+    width: 100%;
 }
 
 header,
@@ -572,6 +574,17 @@ footer h2 {
     color: #004643;
 }
 
+
+.two-col-section.error404 {
+    height: 100vh;
+}
+
+footer.error404 {
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+}
+
 /*RESPONSIVENESS*/
 
 .hide-mobile {
@@ -950,6 +963,10 @@ footer h2 {
 
     .input-group {
         padding: 0.5rem 0.5rem;
+    }
+
+    .two-col-section.error404 {
+        padding: 30% 0;
     }
 
 }
