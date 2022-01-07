@@ -13,6 +13,7 @@ body {
 }
 
 section {
+    clear: both;
     max-width: 2100px;
     margin: 0 auto;
     background: #EFEFEF;
@@ -586,6 +587,28 @@ footer h2 {
 .submit-button:hover {
     background-color: #fafafa;
     color: #004643;
+}
+
+/*RESPONSIVENESS*/
+
+/* laptop styles and smaller styles */
+@media screen and (max-width: 1200px) {
+  
+}
+ 
+/* tablets landscape and smaller styles */
+@media screen and (max-width: 992px) {
+   
+}
+
+/* tablets portait and smaller styles */
+@media screen and (max-width: 767px) {
+ 
+}
+ 
+/* phone styles and smaller */
+@media screen and (max-width: 576px) {
+
 }
 
 
