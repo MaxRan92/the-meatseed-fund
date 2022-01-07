@@ -9,7 +9,13 @@
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
     color: #0C1618;
-    background-color: #EFEFEF;
+    background-color: #adc3b7;
+}
+
+section {
+    max-width: 2100px;
+    margin: 0 auto;
+    background: #EFEFEF;
 }
 
 header {
@@ -262,7 +268,7 @@ header .logo {
 #featured-in {
     height: 125px;
     background-color: #004643;
-    padding: 25px 5%;
+    padding: 25px 0;
 }
 
 #featured-in h2 {
