@@ -527,8 +527,7 @@ footer h2 {
     margin-bottom: 5px;
 }
 
-.text-input,
-#soft-commitment {
+.text-input {
     background: #EFEFEF;
     color: #004643;
     width: 100%;
@@ -543,11 +542,33 @@ footer h2 {
     border-color: #63B079;
 }
 
-.radio,
-#soft-commitment,
-.submit-button {
+.radio-group, 
+.input-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1.2rem;
+}
+
+.radio-item, .input-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.input-item{
+    flex-direction: column;
+    min-width: 280px;
+}
+.input-item input {
+    margin-top: -7px;
+}
+
+.radio-item label{
+    position: relative;
     display: block;
-    margin-bottom: 10px;
+    top: -3px;
 }
 
 .submit-button {
@@ -559,6 +580,7 @@ footer h2 {
     background-color: #004643;
     color:#EFEFEF;
     display: block;
+    margin-bottom: 10px;
 }
 
 .submit-button:hover {
