@@ -654,15 +654,150 @@ footer h2 {
     }
 
     .interest-form {
-        width: 630px;
+        max-width: 630px;
+    }
+
+    .skew-bg {
+        margin: -132px 0 0 96px;
+        width: 400px;
+        height: 500px;
     }
 
 }
 
 /* tablets portait and smaller styles */
 @media screen and (max-width: 767px) {
- 
+    
+    h1 {
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+    
+    header .logo {
+        float: none;
+        line-height: 60px;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    .menu {
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .menu li {
+        float: none;
+    }
+
+    ul.menu {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    ul.menu li {
+        flex: 0 0 auto;
+    }
+
+    .top-banner {
+        height: 100px;
+    }
+
+    .title-text {
+        height: 210px;
+    }
+
+    .two-col-section-left {
+        margin-top: 50px;
+    }
+
+    .right-container {
+        min-width: 225px;
+    }
+    
+    .skew-bg {
+        margin: -330px 0 0 -100px;
+        width: 800px;
+        height: 400px;
+    }
+
+    .three-col-section {
+        display: block;
+        height: 1500px
+    }
+
+    .three-col-section-center,
+    .three-col-section-left,
+    .three-col-section-right {
+        flex-direction: column;
+        height: 500px; 
+    }
+
+    #how-it-works {
+        height: 825px;
+    }
+
+    #how-it-works .three-col-section {
+        height: 750px
+    }
+
+    #how-it-works .three-col-section-center,
+    #how-it-works .three-col-section-left,
+    #how-it-works .three-col-section-right {
+        height: 250px; 
+    }
+
+    #how-it-works h2 {
+        height: 50px;
+        margin-bottom: 0;
+    }
+
+    #how-it-works .three-col-section-text {
+        margin: auto 15%
+    }
+
+    .form-section {
+        height: auto;
+    }
+
+    .interest-form {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .input-group {
+        flex-direction: column;
+        min-width: auto;
+    }
+
+    .text-input {
+        width: calc(100% - 2.4rem);
+    }
+
+    .radio-group {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    input.submit-button {
+        width: 100%
+    }
+
+    .ptf-companies {
+        column-count: 2;
+    }
+
+    .interest-form {
+        max-width: 450px;
+    }
+
 }
+
  
 /* phone styles and smaller */
 @media screen and (max-width: 576px) {
