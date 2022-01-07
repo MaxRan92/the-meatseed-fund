@@ -198,40 +198,39 @@ header .logo {
 
 }
 
-@keyframes home-quote-zoom {
-    from {
-        transform: scale(1);
-    }
+/*CREATING GRID FOR TWO/THREE COL SECTIONS*/
 
-    to {
-        transform: scale(1.1);
-    }
-}
-
-.two-col-section {
+.two-col-section, 
+.three-col-section {
     height: 600px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
-.two-col-section-left {
-    width: 50%;
+.two-col-section-left, 
+.two-col-section-right, 
+.three-col-section-left, 
+.three-col-section-center, 
+.three-col-section-right {
     height: inherit;
-    float: left
+    display: flex;
+    flex-basis: 100%;
+    flex: 1;
+    flex-direction: column;
 }
 
 .left-container {
     width:70%;
-    margin: 25% 15%;
+    margin: calc(25% - 75px) auto;
 }
 
 .two-col-section-right {
-    width: 50%;
-    height: inherit;
-    float: right;
     object-fit: cover;
     overflow: hidden;
 }
-
 
 .right-container {
     width: 525px;
@@ -319,8 +318,6 @@ footer h2 {
 }
 
 .three-col-section {
-    height: 675px;
-    width: 100%;
     margin-bottom: 50px;
 }
 
@@ -594,4 +591,17 @@ footer h2 {
 .submit-button:hover {
     background-color: #fafafa;
     color: #004643;
+}
+
+
+/*KEYFRAMES*/
+
+@keyframes home-quote-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
