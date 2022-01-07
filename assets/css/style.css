@@ -232,6 +232,16 @@ header .logo {
     overflow: hidden;
 }
 
+.two-col-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.two-col-section p {
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+}
+
 .right-container {
     width: 525px;
     height: 400px;
@@ -485,43 +495,6 @@ footer h2 {
 
 
 /*how-to-invest page*/
-
-.kpi-section {
-    height: 600px;
-    width: 100%;
-}
-
-.kpi-right {
-    float: right;
-    height: 600px;
-    width: 50%;
-}
-
-.kpi-1 {
-    height: 600px;
-    width: 50%;
-    display: inline-block;
-    position: relative;
-} 
-
-.kpi-1 p,
-.kpi-1 h3{
-    text-align: center;
-    margin: 25% 15%;
-}
-
-.kpi-2 {
-    height: 300px;
-    width: 100%;
-    background-color: chartreuse;
-}
-
-.kpi-3 {
-    height: 300px;
-    width: 100%;
-    background-color: blueviolet;
-
-}
 
 #how-it-works {
     height: 300px;
