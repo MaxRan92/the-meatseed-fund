@@ -29,7 +29,7 @@ header {
 }
 
 footer {
-    padding: 15px 0 0 0;
+    padding: 15px 0;
     bottom: 0;
     width: 100%;
 }
@@ -120,9 +120,9 @@ header .logo {
     height: 125px;
     bottom: 75px;
     background-color: rgba(12, 22, 24, .7);
-    padding: 50px 50px;
+    padding: 50px 10%;
     position: absolute;
-    margin: 0 100px;
+    margin: 0 5%;
 }
 
 .title-text h2 {
@@ -598,6 +598,7 @@ footer.error404 {
 
 /* laptop styles and smaller styles */
 @media screen and (max-width: 1200px) {
+    
     .right-container {
         width: calc(100% - 100px);
     }
