@@ -234,7 +234,7 @@ header .logo {
 
 .left-container {
     width:70%;
-    margin: calc(25% - 75px) auto;
+    margin: calc(25% - 100px) auto;
 }
 
 .two-col-section-right {
@@ -634,7 +634,7 @@ footer.error404 {
 
     .two-col-section p {
         font-size: 1.2rem;
-        line-height: 1.2rem;
+        line-height: 1.4rem;
     }
 
     .two-col-section-left {
@@ -712,7 +712,7 @@ footer.error404 {
     }
 
     header {
-        height: 100px;
+        height: 120px;
     }
 
     .menu {
@@ -735,21 +735,70 @@ footer.error404 {
     }
 
     .top-banner {
-        height: 100px;
+        height: 60px;
+        padding-top: 125px;
+        line-height: 25px;
     }
 
     .title-text {
         height: 210px;
     }
 
-    .two-col-section-left {
-        margin-top: 50px;
+    .two-col-section {
+        display: block;
+        height: 825px;
+    }
+
+    .two-col-section p {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+
+    .two-col-section-left,
+    .two-col-section-right {
+        flex-direction: column;
+        margin-top: 0px;
+        padding: 25px 10px;
+    }
+
+    .two-col-section-right {
+        height: 400px;
+        padding: 0;
+    }
+
+    .left-container {       
+        text-align: center;
+        width: 80%;
     }
 
     .right-container {
+        margin: 0;
         min-width: 225px;
     }
-    
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .show-mobile {
+        display: block;
+        width: 100%;
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .show-mobile img {
+        width: 100%;
+        border: none;
+        padding: 0;
+        margin: 0;
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 2% 16%;
+    }
+
     .skew-bg {
         margin: -330px 0 0 -100px;
         width: 800px;
@@ -827,69 +876,11 @@ footer.error404 {
         width: 100%;
     }
 
-
-
-    /*test*/
-
-    .two-col-section {
-        display: block;
-        height: 825px;
-    }
-
-    .two-col-section-left,
-    .two-col-section-right {
-        flex-direction: column;
-        margin-top: 0px;
-        padding: 25px 10px;
-    }
-
-    .two-col-section-right {
-        height: 400px;
-        padding: 0;
-    }
-
-    .left-container {       
-        text-align: center;
-        width: 80%;
-    }
-
-    .right-container {
-        margin: 0;
-    }
-
-    .hide-mobile {
-        display: none;
-    }
-
-    .show-mobile {
-        display: block;
-        width: 100%;
-        border: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .show-mobile img {
-        width: 100%;
-        border: none;
-        padding: 0;
-        margin: 0;
-        height: 400px;
-        width: 100%;
-        object-fit: cover;
-        object-position: 2% 16%;
-    }
-
-
 }
 
  
 /* phone styles and smaller */
 @media screen and (max-width: 576px) {
-
-    header {
-        height: 120px;
-    }
 
     ul.menu li {
         margin: auto;
@@ -921,12 +912,6 @@ footer.error404 {
         margin-top: 5px;
     }
 
-    .top-banner {
-        height: 60px;
-        padding-top: 125px;
-        line-height: 25px;
-    }
-
     .logo {
         margin: 0;
         font-size: 18px;
@@ -935,6 +920,11 @@ footer.error404 {
     .two-col-section {
         display: block;
         height: 725px;
+    }
+
+    .two-col-section p {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
     }
 
     .two-col-section-left,
@@ -952,6 +942,7 @@ footer.error404 {
     .left-container {       
         text-align: center;
         width: 80%;
+        margin: calc(25% - 75px) auto;
     }
 
     .right-container {
