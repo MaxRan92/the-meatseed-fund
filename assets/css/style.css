@@ -34,6 +34,21 @@ footer {
     width: 100%;
 }
 
+.contacts   {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.contacts div {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.contacts p {
+    color: #EFEFEF;
+    text-align: center;
+}
+
 header,
 footer {
     background-color: #0c1618;
@@ -346,9 +361,6 @@ footer h2 {
     text-align: center;
     line-height: 50px;
     text-transform: uppercase;
-    border-color: #EFEFEF;
-    border-width: 1px;
-    border-style: solid;
 }
 
 .three-col-section-text {
