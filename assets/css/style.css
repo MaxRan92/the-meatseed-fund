@@ -612,7 +612,6 @@ footer.error404 {
     display: none;
 }
 
-
 /* laptop styles and smaller styles */
 @media screen and (max-width: 1200px) {
     
@@ -658,7 +657,6 @@ footer.error404 {
         height: 375px;
         margin: auto;
     }
-
 
     .logo {
         margin: 0 20px;
