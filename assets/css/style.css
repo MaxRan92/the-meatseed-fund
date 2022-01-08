@@ -826,6 +826,60 @@ footer.error404 {
         width: 100%;
     }
 
+
+
+    /*test*/
+
+    .two-col-section {
+        display: block;
+        height: 825px;
+    }
+
+    .two-col-section-left,
+    .two-col-section-right {
+        flex-direction: column;
+        margin-top: 0px;
+        padding: 25px 10px;
+    }
+
+    .two-col-section-right {
+        height: 400px;
+        padding: 0;
+    }
+
+    .left-container {       
+        text-align: center;
+        width: 80%;
+    }
+
+    .right-container {
+        margin: 0;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .show-mobile {
+        display: block;
+        width: 100%;
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .show-mobile img {
+        width: 100%;
+        border: none;
+        padding: 0;
+        margin: 0;
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 2% 16%;
+    }
+
+
 }
 
  
