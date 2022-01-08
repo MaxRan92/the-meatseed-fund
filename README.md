@@ -1,6 +1,6 @@
 # The MeatSeed Fund
 
-The MeatSeed Fund aims to create a more sustainable food system by informing users about meat alternatives and providing investment opportunites related to this new and growing industry. The site explains the rationale behind three main meat alternatives presented, shows the fund's underlying companies and allows users to make a soft commitment for investment purposes.  
+Meatseed aims to create a more sustainable food system by informing users about meat alternatives and providing investment opportunites related to this new and growing industry. The site explains the rationale behind three main meat alternatives presented, shows the fund's underlying companies and allows users to make a soft commitment for investment purposes.  
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
