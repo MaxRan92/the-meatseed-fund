@@ -106,8 +106,7 @@ In the following paragraphs you will find athe description of the different sect
 
 ### Validator Testing 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
-  - The only warning regards a double h1 in About and Invest pages: this is due to the fact that they are switched on/off alternately at certain breakpoints for better responsiveness. 
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/) 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
