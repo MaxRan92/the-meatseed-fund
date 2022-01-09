@@ -27,7 +27,7 @@ The site is organized in three pages:
 The whole website is designed with the purpose of invoking to users a deep sense of suistainability, progress and positivity through colors, images and shapes.
 The color scheme consists in a contrast of black, white and green shown below. Moreover, green, red and yellow stand out to visually identify the three main technologies involved.
 
-![color scheme](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/color-panel/colors.PNG)
+![color scheme](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/color-panel/colors.png)
 
 ## Features 
 
