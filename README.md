@@ -32,8 +32,8 @@ The color scheme consists in a contrast of black, white and green shown below. M
 In this section you may find a description of the main sections of the site
 
 ### Navigation bar
-  - It is a common element of all the three pages. Allows a smooth navigation through webpages via links to Logo, Home, About and Gallery. The active page is signalled in the menu with bright green colour and an underline. 
-  - The bar is full responsive and fixed to the top of the page: the user can access all the content through it, without need to press any back key.    
+  - It is a common element of all the three pages. The navigation bar allows a smooth navigation through webpages via links to Logo, Home, About and Gallery. The active page is signalled in the menu with bright green and an underline. 
+  - The bar is full responsive across devices and fixed to the top of the page: the user can access all the content through it, without need to press any back key.    
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
