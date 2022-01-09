@@ -24,19 +24,16 @@ The site is organized in three pages:
 - Invest: allows users to understand the investment process and start investing
 
 ### Design
-The whole website is designed with the purpose of invoking a deep sense of suistainability, progress and positivity through colors, images and shapes.
+The whole website is designed with the purpose of invoking to users a deep sense of suistainability, progress and positivity through colors, images and shapes.
 The color scheme consists in a contrast of black, white and green shown below. Moreover, green, red and yellow stand out to visually identify the three main technologies involved.
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+In this section you may find a description of the main sections of the site
 
-### Existing Features
-
-- __Navigation Bar__
-
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+### Navigation bar
+  - It is a common element of all the three pages. Allows a smooth navigation through webpages via links to Logo, Home, About and Gallery. The active page is signalled in the menu with bright green colour and an underline. 
+  - The bar is full responsive and fixed to the top of the page: the user can access all the content through it, without need to press any back key.    
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
