@@ -105,22 +105,24 @@ In this section you may find a description of the main sections of the site
 ## Testing 
 
 ### Validator Testing 
-
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Cross Browser Testing
-The site is correctly shown on Firefox, Chrome, Edge and Safari web browser
+The site is correctly shown on Firefox, Chrome, Edge and Safari web browsers.
 
 ### Cross Device Testing
 The responsitivity has been largely tested. The CSS code contemplates several breakpoints to adapt to various screen sizes, from ultrawide to several smartphone (Samsung Galaxy S III included, with its 360px width). For this purpose, Chrome emulator has been used.
 To make the three column sections responsive (Innovations and Investment Process) was particularly challenging: at first they were designed with the float property, however the display flex one was much better to easily transformation an horizontal grid to a vertical one. My mentor Malia Havlicek gave me important hints providing [relevant material](https://codepen.io/taniarascia/pen/rOLEGe/)
 
+### Lighthouse Grades
+All the pages received 100/100 on Accessibility, Best Practices and SEO requirements, both in mobile and desktop view.
+Performance scores are close to 100 and, in any case, over 90. [Click Here](https://raw.githubusercontent.com/MaxRan92/the-meatseed-fund/main/docs/screenshots/lighthouse.PNG) for a scoring result.
+Initially the Performance score of the Home mobile view was around 75 due to large image size. As suggested by Lighthouse developer, the images have been converted from jpg to avif and used only in the mobile view.
 
 ### Unfixed Bugs
-
 To be inserted if and when they will be discovered.
 
 ## Deployment
