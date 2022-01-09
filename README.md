@@ -27,58 +27,80 @@ The site is organized in three pages:
 The whole website is designed with the purpose of invoking to users a deep sense of suistainability, progress and positivity through colors, images and shapes.
 The color scheme consists in a contrast of black, white and green shown below. Moreover, green, red and yellow stand out to visually identify the three main technologies involved.
 
-![color scheme](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/color-panel/colors.png)
+![Color Scheme](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/color-panel/colors.png)
 
 ## Features 
 
 In this section you may find a description of the main sections of the site
 
-### Navigation bar
+### Navigation Bar
   - It is a common element of all the three pages. The navigation bar allows a smooth navigation through webpages via links to Logo, Home, About and Gallery. The active page is signalled in the menu with bright green and an underline. 
   - The bar is full responsive across devices and fixed to the top of the page: the user can access all the content through it, without need to press any back key.    
 
 ![Nav Bar](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/navigation-bar.PNG)
 
-- __The landing page image__
+### The Hero Image
+  - The hero image section includes an animated background image with text overlay which sums up in few words the main purpose of the project.
+  - A button to the About page is included as a call to action to learn more about the matter.
+  - The image represents a zoomed in broccoli and has been chosen for its ability to invoke nature and science.
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+![Hero Image](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+### Home Page Main Section
+  - This section contains an overview of the fund and its activity.
+  - Also in this section, a button to the Invest page is included as a call to action to learn more about the investment process.
+  - An image of Singapore's Gardens by the Bay has beed added to reinforce the human intervention factor. 
 
-- __Club Ethos Section__
+![Home Main](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+### Featured In Section
+  - In this section the user can click to newspaper logos in order to see their coverage about the MeatSeed Fund.
+  - The purpose is to build credibility over the company by showing that it is supported by important press names in the field of investing and finance. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Featured In](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+### Footer
+  - The footer section includes the company logo, contact details and links to (future) social media profiles.
+  - The footer follows the same design of the header: their dark backgrounds frame the page and visually invite the user to focus on the main content. 
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
+### About Page Main Section
+  - The structure is similar to the Home main section to mantain consistency of design across web pages.
+  - Its purpose is to explain why it is important to take action towards a more sustainable future.
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+![About Main](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+### Three Innovations Section
+  - This section illustrates the three meat alternatives innovations with images and descriptions.
+  - The three categories, namely Plant-Based, Cultured and Insect-Based Meat, are visually identified through the colors of their images and borders (green, red and yellow respectively).
 
-- __The Sign Up Page__
+![Innovations](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+### Portfolio Companies Section
+  - This section resembles the Featured In one in the Home page, however the design is enhanced with more CSS proerties.
+  - When the user hovers with its cursor, the category of the company will appear below its name and the background color of the tile will change based on it, creating a visual link with the above section.
+  - Clicking on the tiles, a new tab to the company site will open. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Portfolio Companies](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+### Invest Page Main Section
+  - The structure is similar to the Home and About main sections, to mantain consistency of design across web pages.
+  - Its aim is to back the noble purpose of the investment with expected financial results.
+
+![Portfolio Companies](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+### Three Investment Steps Section
+  - The structure is similar to the About Three Innovations Section. 
+  - The section is mainly descriptive and illustrates the steps to invest in the MeatSeed Fund.
+
+![Portfolio Companies](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+### Form Section
+  - Following the Step 1 of the above section, a form is available.
+  - The user will insert Personal Data (Text Input), his Investor Profile (Radio Button) and can select a Soft Commitment Range (Select).
+
+![Portfolio Companies](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
