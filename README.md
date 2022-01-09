@@ -44,63 +44,63 @@ In this section you may find a description of the main sections of the site
   - A button to the About page is included as a call to action to learn more about the matter.
   - The image represents a zoomed in broccoli and has been chosen for its ability to invoke nature and science.
 
-![Hero Image](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Hero Image](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/home-hero.png)
 
 ### Home Page Main Section
   - This section contains an overview of the fund and its activity.
   - Also in this section, a button to the Invest page is included as a call to action to learn more about the investment process.
   - An image of Singapore's Gardens by the Bay has beed added to reinforce the human intervention factor. 
 
-![Home Main](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Home Main](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/home-main.png)
 
 ### Featured In Section
   - In this section the user can click to newspaper logos in order to see their coverage about the MeatSeed Fund.
   - The purpose is to build credibility over the company by showing that it is supported by important press names in the field of investing and finance. 
 
-![Featured In](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Featured In](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/home-featured.png)
 
 ### Footer
   - The footer section includes the company logo, contact details and links to (future) social media profiles.
   - The footer follows the same design of the header: their dark backgrounds frame the page and visually invite the user to focus on the main content. 
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/footer.png)
 
 ### About Page Main Section
   - The structure is similar to the Home main section to mantain consistency of design across web pages.
   - Its purpose is to explain why it is important to take action towards a more sustainable future.
 
-![About Main](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![About Main](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/about-main.png)
 
 ### Three Innovations Section
   - This section illustrates the three meat alternatives innovations with images and descriptions.
   - The three categories, namely Plant-Based, Cultured and Insect-Based Meat, are visually identified through the colors of their images and borders (green, red and yellow respectively).
 
-![Innovations](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Innovations](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/about-innovations.png)
 
 ### Portfolio Companies Section
   - This section resembles the Featured In one in the Home page, however the design is enhanced with more CSS proerties.
   - When the user hovers with its cursor, the category of the company will appear below its name and the background color of the tile will change based on it, creating a visual link with the above section.
   - Clicking on the tiles, a new tab to the company site will open. 
 
-![Portfolio Companies](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Portfolio Companies](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/about-portfolio.png)
 
 ### Invest Page Main Section
   - The structure is similar to the Home and About main sections, to mantain consistency of design across web pages.
   - Its aim is to back the noble purpose of the investment with expected financial results.
 
-![Portfolio Companies](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Invest Main](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/invest-main.png)
 
 ### Three Investment Steps Section
   - The structure is similar to the About Three Innovations Section. 
   - The section is mainly descriptive and illustrates the steps to invest in the MeatSeed Fund.
 
-![Portfolio Companies](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Investment Steps](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/invest-process.png)
 
 ### Form Section
   - Following the Step 1 of the above section, a form is available.
   - The user will insert Personal Data (Text Input), his Investor Profile (Radio Button) and can select a Soft Commitment Range (Select).
 
-![Portfolio Companies](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Form](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/invest-form.png)
 
 ## Testing 
 
