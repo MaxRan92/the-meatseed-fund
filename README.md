@@ -4,7 +4,7 @@
 
 MeatSeed aims to create a more sustainable food system by informing users about meat alternatives and providing investment opportunites related to this new and growing industry. The site explains the rationale behind three main meat alternatives presented, shows the fund's underlying companies and allows users to make a soft commitment for investment purposes.  
 
-![Responsice Mockup](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/am-i-responsive.PNG)
+![Responsive Mockup](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/am-i-responsive.PNG)
 
 ## Author
 Massimo Ranalli
@@ -27,6 +27,8 @@ The site is organized in three pages:
 The whole website is designed with the purpose of invoking to users a deep sense of suistainability, progress and positivity through colors, images and shapes.
 The color scheme consists in a contrast of black, white and green shown below. Moreover, green, red and yellow stand out to visually identify the three main technologies involved.
 
+![color scheme](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/color-panel/colors.PNG)
+
 ## Features 
 
 In this section you may find a description of the main sections of the site
@@ -35,7 +37,7 @@ In this section you may find a description of the main sections of the site
   - It is a common element of all the three pages. The navigation bar allows a smooth navigation through webpages via links to Logo, Home, About and Gallery. The active page is signalled in the menu with bright green and an underline. 
   - The bar is full responsive across devices and fixed to the top of the page: the user can access all the content through it, without need to press any back key.    
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/navigation-bar.PNG)
 
 - __The landing page image__
 
