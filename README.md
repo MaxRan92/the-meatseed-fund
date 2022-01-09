@@ -102,25 +102,7 @@ In this section you may find a description of the main sections of the site
 
 ![Portfolio Companies](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
-
 ## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-- [x] Looks good on small devices
 
 ### Validator Testing 
 
@@ -129,9 +111,17 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
+### Cross Browser Testing
+The site is correctly shown on Firefox, Chrome, Edge and Safari web browser
+
+### Cross Device Testing
+The responsitivity has been largely tested. The CSS code contemplates several breakpoints to adapt to various screen sizes, from ultrawide to several smartphone (Samsung Galaxy S III included, with its 360px width). For this purpose, Chrome emulator has been used.
+To make the three column sections responsive (Innovations and Investment Process) was particularly challenging: at first they were designed with the float property, however the display flex one was much better to easily transformation an horizontal grid to a vertical one. My mentor Malia Havlicek gave me important hints providing [relevant material](https://codepen.io/taniarascia/pen/rOLEGe/)
+
+
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+To be inserted if and when they will be discovered.
 
 ## Deployment
 
