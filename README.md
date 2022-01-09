@@ -1,8 +1,31 @@
 # The MeatSeed Fund
 
-Meatseed aims to create a more sustainable food system by informing users about meat alternatives and providing investment opportunites related to this new and growing industry. The site explains the rationale behind three main meat alternatives presented, shows the fund's underlying companies and allows users to make a soft commitment for investment purposes.  
+## Overview
+
+MeatSeed aims to create a more sustainable food system by informing users about meat alternatives and providing investment opportunites related to this new and growing industry. The site explains the rationale behind three main meat alternatives presented, shows the fund's underlying companies and allows users to make a soft commitment for investment purposes.  
 
 ![Responsice Mockup](https://github.com/MaxRan92/the-meatseed-fund/blob/main/docs/screenshots/am-i-responsive.PNG)
+
+## Author
+Massimo Ranalli
+
+## Site Aims
+- Inform the public about the importance of meat alternatives for the future of food supply chain and for an environmentally friendly production
+- Present three main innovations that will reshape the industry in the next years
+- Present the MeatSeed Fund supported with company information and media coverage
+- Give investors the possibility to start the investment process by making a soft commitment 
+
+## UX
+
+### Site Structure
+The site is organized in three pages:
+- Home: this is the landing page, in which the user can get an overview about the fund and its main mission
+- About: contains details about the investment case
+- Invest: allows users to understand the investment process and start investing
+
+### Design
+The whole website is designed with the purpose of invoking a deep sense of suistainability, progress and positivity through colors, images and shapes.
+The color scheme consists in a contrast of black, white and green shown below. Moreover, green, red and yellow stand out to visually identify the three main technologies involved.
 
 ## Features 
 
