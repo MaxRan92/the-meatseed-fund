@@ -1,4 +1,4 @@
-# The MeatSeed Fund
+# The MeatSeed Fund - Mileston Project 1
 
 ## Overview
 
@@ -107,6 +107,7 @@ In this section you may find a description of the main sections of the site
 ### Validator Testing 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
+  - The only warning regards a double h1 in About and Invest pages: this is due to the fact that they are switched on/off at certain breakpoints for better responsiveness. 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
@@ -127,56 +128,25 @@ To be inserted if and when they will be discovered.
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  1. In the GitHub [repository](https://github.com/MaxRan92/the-meatseed-fund), navigate to the Settings tab
-  
-  ![image](https://user-images.githubusercontent.com/87261820/147862161-f979c2bc-aef7-4cfc-8f27-d8482588b85f.png)
+- The site is deployed on GitHub at the followin [link](https://maxran92.github.io/the-meatseed-fund/index.html)
+- The deployment process is the following
+  1. In the GitHub [repository](https://github.com/MaxRan92/the-meatseed-fund), navigate to the **Settings** tab
+  2. Select **Pages** from the left hand navigation tab, then select **Source** > **Branch: main**
+  3. Once the main branch has been selected and the **Save** button is clicked, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.   
 
-  2. Select "Pages" from the left hand navigation tab, then select Source > Branch: main
-  
-  ![image](https://user-images.githubusercontent.com/87261820/147862180-01f7842d-9433-4c3c-b633-6baa43e18a11.png)
-  
-  3. Once the main branch has been selected and the Save button is clicked, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.   
-
-  ![image](https://user-images.githubusercontent.com/87261820/147862238-5a62868d-be20-47f3-af20-500691c40406.png)
-
-  
-The live link can be found here - https://maxran92.github.io/the-meatseed-fund/
-
+The live link can be found [here](https://maxran92.github.io/the-meatseed-fund/index.html)
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+### Acknowledgements
+I would like to sincerely thank my mentor [Malia Havlicek](https://github.com/maliahavlicek): her great experience in the field helped me to better understand the purpose of the project and how to obtain the desired output.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+### Content
+- Working in an asset management company which actively invests in the themes presented, the text content for the MeatSeed Fund has been elaborated by me looking at my direct job experience. The main document that I have consulted is the *[Food for thought, the protein transformation](https://web-assets.bcg.com/a0/28/4295860343c6a2a5b9f4e3436114/bcg-food-for-thought-the-protein-transformation-mar-2021.pdf)* report published by Boston Consulting Group, even if no text was copied.
+- As per the design of the web pages, I was inspired by the Love-Running site created during the course, especially for the three-column-sections and the forms.
 
 ### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+- The images are taken from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/), both open source sites.
+- The logos are from [Flyclipart](https://flyclipart.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icon on the web page tab was made with [Favicon](https://favicon.io/)  
