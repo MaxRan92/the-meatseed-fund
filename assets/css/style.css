@@ -810,6 +810,10 @@ footer.error404 {
         display: none;
     }
 
+    .section-title.show-mobile {
+        height: auto;
+    }
+
     .show-mobile {
         display: block;
         width: 100%;
@@ -908,7 +912,7 @@ footer.error404 {
     }
 
     .ptf-companies {
-        column-count: 2;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .interest-form {
