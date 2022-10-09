@@ -465,6 +465,8 @@ footer h2 {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .company-container {
@@ -498,7 +500,7 @@ footer h2 {
 .company-container:hover h2,
 .company-container:hover h3 {
     display: block;
-    width: 300px;
+    width: auto;
     color: #EFEFEF;
     line-height: 1;
     text-align: center;
